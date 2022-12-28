@@ -1,17 +1,17 @@
 /*
-  Thread class의 상속클래스
+  Runnable interface의 구현클래스
  */
 
 
-public class ThreadExam extends Thread{
+public class RunnableExam implements Runnable{
   String str;
 
-  public ThreadExam(String str) {
+  public RunnableExam(String str){
     this.str = str;
   }
 
   @Override
-  public void run(){
+  public void run() {
     for(int i=0; i<10; i++){
       System.out.println(str);
 
