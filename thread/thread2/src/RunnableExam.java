@@ -1,7 +1,9 @@
 /*
   Runnable interface의 구현클래스
+  - Runnable은 인터페이스이다.
+  - Runnable은 run() 메소드 하나만 정의되어 있기 때문에 함수적 인터페이스이다.
+    따라서 람다식을 Runnable 대신 매개값으로 사용할 수도 있다.
  */
-
 
 public class RunnableExam implements Runnable{
   String str;

@@ -1,7 +1,7 @@
 /*
   Thread class의 상속클래스
+  - Thread는 클래스이다.
  */
-
 
 public class ThreadExam extends Thread{
   String str;
